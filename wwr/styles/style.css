@@ -115,6 +115,7 @@ nav a:hover {
 .msg {
     line-height: 5.5em;
     padding: 35px;
+    align-self: center;
     background-color: #F17300; 
     grid-column: 6/10;
     grid-row: 6/7;
