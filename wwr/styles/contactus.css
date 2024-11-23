@@ -134,6 +134,7 @@ label {
     display: none;
     /* make this element invisible until we are ready for it */
 }
+
 .moveDown {
     margin-top: 3em;
 }
