@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Eater&display=swap');
+
+:root{
+    background-color: #565f65;
+    --heading-font: "eater";
+    --paragraph-font: 'delius',Lato, Helvetica, sans-serif;  
+    font-family: var(--paragraph-font);
+}
+
+header{
+    display: grid;
+    grid-template-columns: 230px;
+    background-color: #c3ff9e;
+}
+
+.text-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+h1{
+    font-family: var(--heading-font);
+}
+
+.logo-link{
+    grid-column: 1/2;
+}
+.logo{
+    size: 10%;
+}
+
+
+.headernav{
+    align-self: center;
+    grid-column: 2/2;
+}
+
+.navA {
+    padding-right: 100px;
+}
+
+main{
+    background-color: #deffca;
+    color: #565f65;
+}
+
+.link-holder{
+    display: grid;
+    grid-template-columns: 600px 1fr;    
+    grid-template-rows: 1px;
+    background-color: #c3ff9e;
+    outline: #43455b;
+    stroke-width: 10px;
+    margin: 40px;
+}
+
+.link-header {
+    grid-column: 1/4;
+}
+
+.actual-link{
+    grid-column: 2/4;
+    align-self: center;
+    padding-left: 90px;
+    font-size: 27px;
+}
+
+.actual-link:hover {
+    font-size: 30px;
+}
+
+.link-image{
+    grid-column: 4/4;
+}
+
+.misc-facts{
+    display: grid;
+    grid-template-rows: 1px;
+}
+
+.misc-header{
+    align-self: center;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    font-size: 30px;
+}
+
+.facts-misc{
+grid-row: 2/2;
+grid-column: 2/3;
+display: block;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 230px;
+    background-color: #c3ff9e;
+}
+
+.footertext{
+    grid-column: 1/2;
+}
+
+.footernav{
+    align-self: center;
+    grid-column: 2/2;
+}
