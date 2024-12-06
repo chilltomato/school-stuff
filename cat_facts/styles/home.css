@@ -12,8 +12,13 @@ header{
     display: grid;
     grid-template-columns: 230px;
     background-color: #c3ff9e;
+    position: sticky;
 }
 
+
+.headernav {
+    position: sticky;
+}
 .text-container{
     display: flex;
     justify-content: center;
@@ -34,6 +39,7 @@ h1{
 
 .headernav{
     align-self: center;
+    position: sticky;
     grid-column: 2/2;
 }
 
