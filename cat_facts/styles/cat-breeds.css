@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Eater&display=swap');
+
+:root{
+    background-color: #565f65;
+    --heading-font: "eater";
+    --paragraph-font: 'delius',Lato, Helvetica, sans-serif;  
+    font-family: var(--paragraph-font);
+}
+
+header{
+    display: grid;
+    grid-template-columns: 230px;
+    background-color: #c3ff9e;
+    position: sticky;
+}
+
+
+.headernav {
+    position: sticky;
+}
+.text-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+h1{
+    font-family: var(--heading-font);
+    text-align: center;
+}
+
+.logo-link{
+    grid-column: 1/2;
+}
+.logo{
+    size: 10%;
+}
+
+
+.headernav{
+    align-self: center;
+    position: sticky;
+    grid-column: 2/2;
+}
+
+.navA {
+    padding-right: 100px;
+}
+
+main{
+    background-color: #deffca;
+    color: #565f65;
+}
+
+
+.cat-breed{
+    display: grid;
+    grid-template-columns: 300px;    
+    grid-template-rows: 1px;
+    background-color: #c3ff9e;
+    outline: #43455b;
+    stroke-width: 10px;
+    margin: 40px;
+    width: fit-content;
+}
+
+.breed-name {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    text-align: center;
+}
+
+.breed-description{
+    grid-column: 2/3;
+    align-self: center;
+    text-align: center;
+    padding-left: 60px;
+    font-size: 27px;
+    grid-row: 2/3;
+}
+
+
+.breed-image{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    text-align: left;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 230px;
+    background-color: #c3ff9e;
+}
+
+.footertext{
+    grid-column: 1/2;
+}
+
+.footernav{
+    align-self: center;
+    grid-column: 2/2;
+}
